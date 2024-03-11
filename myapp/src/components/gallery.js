@@ -67,6 +67,13 @@ function Gallery() {
         setSelectedImageIndex((prevIndex) => (prevIndex - 1 + filteredImages.length) % filteredImages.length);
     };
 
+
+
+    const handleModalHide = () => {
+        setSelectedImageIndex(0); // Reset selected image index when modal is hidden
+        setShowModal(false);
+    }
+
     return (
         <>
             <h1 className='mt-5 text-center main-heading'>Our Gallery</h1>
@@ -89,7 +96,9 @@ function Gallery() {
                     ))}
                 </div>
             </div>
-            <Modal show={showModal} onHide={handleCloseModal} centered>
+            {/* <Modal show={showModal} onHide={handleCloseModal} centered> */}
+
+<Modal show={showModal} onHide={handleModalHide} centered>
                 <Modal.Body>
                     {filteredImages.length > 0 && (
                         <div className="d-flex justify-content-between">

@@ -82,8 +82,9 @@ function Home() {
               </div>
             </div>
           </Row>
-          <Row className='w-100'>
-          <Card className='m-1 col-md-4 col-sm-12 m-3' style={{ width:'30%', background:'#26AE65'}}>
+          <Row className='w-100 '>
+            {/* next time chardv inside the col-md class  */}
+          <Card className='m-1   ' style={{ width:'30%', background:'#26AE65'}}>
       <Card.Body className='m-1'>   
       <div className="text-center">
       <FontAwesomeIcon icon={faUsersViewfinder} style={{color: "#fff",}} fontSize="40px"/>
@@ -100,7 +101,7 @@ Aadhaar: 2058438 | Non-Aadhaar: 17509
         
       </Card.Body>
     </Card>
-          <Card className='m-1 col-md-4  col-sm-12 m-3' style={{width:'30%',  background:'#F55D5D'}}>
+          <Card className='m-1   ' style={{width:'30%',  background:'#F55D5D'}}>
       <Card.Body className='m-1'>   
       <div className="text-center">
       <FontAwesomeIcon icon={faUsersViewfinder} style={{color: "#fff",}} fontSize="40px"/>
@@ -117,7 +118,7 @@ Aadhaar: 0 | Non-Aadhaar: 0
         
       </Card.Body>
     </Card>
-          <Card className='m-1 col-md-4  col-sm-12 m-3' style={{width:'30%', background:'#060644'}}>
+          <Card className='m-1   ' style={{width:'30%', background:'#060644'}}>
       <Card.Body className='m-1'>   
       <div className="text-center">
       <FontAwesomeIcon icon={faUsersViewfinder} style={{color: "#fff",}} fontSize="40px"/>

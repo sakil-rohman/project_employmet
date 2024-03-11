@@ -178,9 +178,9 @@ function Contactus() {
             <Card.Body>
               <Card.Title className='text-center midcard_text' >Shri Manoj Kanu
 </Card.Title>
-              <Card.Subtitle className='text-center card_text_2'>Deputy Director of Employment (i/c)</Card.Subtitle>
+              <Card.Subtitle className='text-center card_text_2'>Deputy Director of Employment </Card.Subtitle>
               <Card.Text className='p_text m-4'>
-              Deputy Director of Employment (i/c) <br />
+              Deputy Director of Employment  <br />
 P.O.-Silchar, Pin No. 788001, <br /> Dist.-Cachar, Assam (Southern Assam Zone)<br />
                     <span className='main_color_bold'>Phone No.:</span>  9435375289 <br />
                     <span className='main_color_bold'>E-mail:</span>  ddesazsilchar@gmai
@@ -199,7 +199,7 @@ P.O.-Silchar, Pin No. 788001, <br /> Dist.-Cachar, Assam (Southern Assam Zone)<b
             <Card.Img  className='mx-auto d-inline-block shadow_sm img_size' style={{borderRadius:"50%", boxShadow:" 0 .125rem .25rem rgba(0,0,0,.075)!important"}} src={firstImage} />
             <Card.Body>
               <Card.Title className='text-center midcard_text' >Shri S. K. Gohain</Card.Title>
-              <Card.Subtitle className='text-center card_text_2'>Deputy Director of Employmen</Card.Subtitle>
+              <Card.Subtitle className='text-center card_text_2'>Deputy Director of Employment</Card.Subtitle>
               <Card.Text className='p_text m-4'>
               Deputy Director of Employmen <br /> P.O.-Jorhat, Pin No. 785014, <br /> Dist.-Jorhat, Assam (Upper Assam Zone)<br />
                     <span className='main_color_bold'>Phone No.:</span>  9435336765 <br />

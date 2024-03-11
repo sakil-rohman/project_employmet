@@ -45,10 +45,10 @@ function Notification() {
     }, [id]);
 
     
-    const refresh = () =>{
-        setTimeout(() => { 
-            window.location.reload(); 
-          }, 1);}
+    // const refresh = () =>{
+    //     setTimeout(() => { 
+    //         window.location.reload(); 
+    //       }, 1);}
     // } window.location.reload(true)
     const [isHovered, setIsHovered] = useState(false);
     const handleMouseEnter = () => {
@@ -65,7 +65,7 @@ function Notification() {
             <marquee className="marq" scrollamount="4" direction = "up" loop=""  onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave} >
             {aboutusstitle.map((aboutustitle, index) => (
-                 <Link to={`/${aboutustitle.id}/notification-view`} onClick={refresh}>
+                 <Link to={`/${aboutustitle.id}/notification-view`} >
                     <p className='side_bar_sub_text pl-3'> <FontAwesomeIcon icon={faAnglesRight} /> {aboutustitle.title}</p>
                  </Link>
                         

@@ -38,10 +38,7 @@ function NotificationTitles() {
     }, []);
 
     
-    const refresh = () =>{
-        setTimeout(() => { 
-            window.location.reload(); 
-          }, 1);}
+  
     // } window.location.reload(true)
 
     return (
@@ -49,7 +46,7 @@ function NotificationTitles() {
             
             <marquee className="marq" scrollamount="4" direction = "up" loop="" >
             {aboutusstitle.map((aboutustitle, index) => (
-                 <Link to={`/${aboutustitle.id}/notification-view`} onClick={refresh}><p className='side_bar_sub_text'> <FontAwesomeIcon icon={faAnglesRight} /> {aboutustitle.title}</p>
+                 <Link to={`/${aboutustitle.id}/notification-view`} ><p className='side_bar_sub_text'> <FontAwesomeIcon icon={faAnglesRight} /> {aboutustitle.title}</p>
                  </Link>
                         
                         ))}

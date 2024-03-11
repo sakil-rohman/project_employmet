@@ -43,7 +43,7 @@ function Header() {
         <button className="rounded-circle border-0" id="sidebarToggle" onClick={changeStyle}></button>
     </div>
     <a className="sidebar-brand d-flex align-items-center justify-content-center" href="#">
-    <Link to="/sliderimage-view">
+    <Link to="/">
         <div className="sidebar-brand-icon rotate-n-15">
         <i class="fas fa-pencil-ruler"></i>
         </div>
@@ -83,7 +83,7 @@ function Header() {
             <div className="bg-white py-2 collapse-inner rounded">
                 <h6 className="collapse-header">Custom Components:</h6>
                 {/* <Link className="collapse-item" to="/sliderimage-view">Slider</Link> */}
-                <Link className='collapse-item' to="/sliderimage-view">Sldider</Link>
+                <Link className='collapse-item' to="/sliderimage-view">Slider</Link>
                 <Link className='collapse-item' to="/ministry-view">Ministry</Link>
                 <Link className="collapse-item" to="/notification-view">Notification</Link>
                 <Link className="collapse-item" to="/eventcards-view">Event Cards</Link>

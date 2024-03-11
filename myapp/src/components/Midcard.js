@@ -49,7 +49,7 @@ function Midcard() {
              {
        eventcards.map((eventcard, index) => (
                 <Col className='my-3'>
-                <Card style={{ width: '18rem' }}>
+                <Card style={{ width: '15rem' }}>
       <Card.Body className='m-4'> 
       <div className="text-center">
       <FontAwesomeIcon icon={faPeopleGroup} style={{color: "#F55D5D",}} fontSize="40px"/>
@@ -62,8 +62,12 @@ function Midcard() {
              
              </Col>
        ))}
-                <Col className='my-3'>
-                <Card style={{ width: '18rem' }}>
+
+
+
+       <Row>
+                        <Col className='my-3'>
+                <Card style={{ width: '15rem' }}>
       <Card.Body className='m-4'>   
       <div className="text-center">
       <FontAwesomeIcon icon={faUsersViewfinder} style={{color: "#F55D5D",}} fontSize="40px"/>
@@ -81,7 +85,7 @@ function Midcard() {
              
              </Col>
                 <Col className='my-3'>
-                <Card style={{ width: '18rem' }}>
+                <Card style={{ width: '15rem' }}>
       <Card.Body className='m-4'>
         <div className="text-center">
       <FontAwesomeIcon icon= {faHandHoldingDollar} style={{color: "#F55D5D",}} fontSize="40px"/>
@@ -99,7 +103,7 @@ function Midcard() {
              
              </Col>
                 <Col className='my-3'>
-                <Card style={{ width: '18rem' }}>
+                <Card style={{ width: '15rem' }}>
       <Card.Body className='m-4'>
         <div className="text-center">
       <FontAwesomeIcon icon={faMagnifyingGlassChart} style={{color: "#F55D5D",}} fontSize="40px"/>
@@ -117,7 +121,7 @@ function Midcard() {
              
              </Col>
                 <Col className='my-3'>
-                <Card style={{ width: '18rem' }}>
+                <Card style={{ width: '15rem' }}>
       <Card.Body className='m-4'> 
       <div className="text-center">
       <FontAwesomeIcon icon={faDownload} style={{color: "#F55D5D",}} fontSize="40px"/>
@@ -134,8 +138,11 @@ function Midcard() {
     </Card>
              
              </Col>
+
+
+             </Row>
                 <Col className='my-3'>
-                <Card style={{ width: '18rem' }}>
+                <Card style={{ width: '15rem' }}>
       <Card.Body className='m-4'> 
       <div className="text-center">
       <FontAwesomeIcon icon={faIcons} style={{color: "#F55D5D",}} fontSize="40px"/>
@@ -155,7 +162,7 @@ function Midcard() {
              
              </Col>
                 <Col className='my-3'>
-                <Card style={{ width: '18rem' }}>
+                <Card style={{ width: '15rem' }}>
       <Card.Body className='m-4'> 
       <div className="text-center">
       
@@ -176,7 +183,7 @@ function Midcard() {
              
              </Col>
                 <Col className='my-3'>
-                <Card style={{ width: '18rem' }}>
+                <Card style={{ width: '15rem' }}>
       <Card.Body className='m-4'> 
       <div className="text-center">
       <FontAwesomeIcon icon={faPersonChalkboard} style={{color: "#F55D5D",}} fontSize="40px"/>
@@ -195,7 +202,7 @@ function Midcard() {
              
              </Col>
                 <Col className='my-3'>
-                <Card style={{ width: '18rem' }}>
+                <Card style={{ width: '15rem' }}>
       <Card.Body className='m-4'>  
         <div className=' text-center'>
       <FontAwesomeIcon icon={faCircleQuestion} style={{color: "#F55D5D",}} fontSize="40px" />
