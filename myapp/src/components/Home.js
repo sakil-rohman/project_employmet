@@ -67,9 +67,9 @@ function Home() {
           <Row className='pragraph_text'>
             <div>
               <p className='sub_head'>Welcome To</p>
-              <h3 className='underline_main'>Director, Employment & Craftsmen Training</h3>
+              <h3 className='underline_main'>Directorate of Employment & Craftsmen Training</h3>
               <p className='mt-5 w_90' style={{textAlign: 'justify'}}>
-                  Directorate of Employment & Craftsmen Training, DET is working under the Department of Labour and Employment, Government of Gujarat. It was formed in Gujarat State in 1971 by amalgamation of the Employment Wing, functioning under the Labour Directorate, and the Vocational Training Scheme under the Directorate of Technical Education. <br /><br />
+              Directorate of Employment & Craftsmen Training, DET is working under the Department of Labour and Employment, Government of Gujarat. It was formed in Gujarat State in 1971 by amalgamation of the Employment Wing, functioning under the Labour Directorate, and the Vocational Training Scheme under the Directorate of Technical Education. <br /><br />
 
                   At present 263 Govt.ITIs, 475 Grant-in-aid & Self-Financed ITCs, 335 KVKs(Kaushalya Vardhan Kendra), 617 VTPs (Vocational Training Provider) and 48 Employment Exchanges are functioning under this Directorate. <br />
 

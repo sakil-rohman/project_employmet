@@ -34,7 +34,7 @@ function Login_page() {
                     
                   </Card.Body>
                   <Card.Footer className='card_footer text-light'>
-                    <a className='text-light' href="https://employment.assam.gov.in/">Visit</a>
+                    <a className='text-light' href="https://sewasetu.assam.gov.in/site/service-apply/registration-of-employment-seeker-in-employment-exchange">Visit</a>
                     </Card.Footer>
                 </Card>              
               </Col>

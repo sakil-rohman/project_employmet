@@ -18,7 +18,7 @@ function Mini_about_us() {
             <Row className='pragraph_text'>
             <div>
               <p className='sub_head'>Welcome To</p>
-              <h3 className='underline_main'>Directorate of Employment & Training</h3>
+              <h3 className='underline_main'>Directorate of Employment & Craftsmen Training</h3>
               <p className='mt-5 w_90'>
               INTRODUCTION
 Directorate of Employment & Training, DET is working under the Department of Labour and Employment, Government of Gujarat. It was formed in Gujarat State in 1971 by amalgamation of the Employment Wing, functioning under the Labour Directorate, and the Vocational Training Scheme under the Directorate of Technical Education.

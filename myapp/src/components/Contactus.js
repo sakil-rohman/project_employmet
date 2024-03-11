@@ -19,12 +19,13 @@ function Contactus() {
     const getContactUs = async () => {
         const response = await axios.get('http://127.0.0.1:8000/api/contactus/');
         // Example filtering based on a condition, replace with your own filtering logic
-        const filteredData = response.data.filter(item => item.designation === 'Director, Employment & Craftsmen Training');
+        const filteredData = response.data.filter(item => item.designation === 'Director Employment & Craftsmen Training');
         setContactUs(filteredData);
     };
+    
     const getContactUsAll = async() => {
       const response = await axios.get('http://127.0.0.1:8000/api/contactus/')
-      const filteredData = response.data.filter((item => item.designation === 'Deputy Director of Employment') || (item => item.designation === 'Deputy Director of Employment (i/c)')) ;
+      const filteredData = response.data.filter((item => item.designation === 'Director, Employment & Craftsmen Training ') || (item => item.designation === 'Deputy Director of Employment (i/c)')) ;
       setContactUsAll(filteredData) 
       };
 
