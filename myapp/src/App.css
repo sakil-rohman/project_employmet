@@ -520,8 +520,8 @@ a{
 
   .card_footer{
     background: #ff3333  !important;
-    width: 108% !important;
-    margin-left: -4% !important;
+    /* width: 108% !important;
+    margin-left: -4% !important; */
   }
 
   .underline_main {

@@ -75,7 +75,7 @@ function Header() {
                     <Col>
                     <Link to="/login">
                         <p className="text-end main_them_dark_color">
-                           Login
+                           Cms Login
                         </p>
 
                     </Link>
@@ -113,12 +113,12 @@ function Header() {
                         <Navbar.Collapse id="basic-navbar-nav" className='mx-0' >
                             <Nav className='justify-content-around' style={{ width:"100%", }}>
                                 <Nav.Link as={NavLink} to="/" className='menu-links '><h5>Home</h5></Nav.Link>
+                                <Nav.Link as={NavLink} to="/aboutus" className='menu-links'><h5>About Us</h5></Nav.Link>
                                 {/* <Nav.Link to="/" className='menu-links'><h5>Dashboard</h5></Nav.Link> */}
                                 <Nav.Link as={NavLink} to="/guidelines" className='menu-links'><h5>Guidelines</h5></Nav.Link>
                                 <Nav.Link as={NavLink} to="/schemes" className='menu-links'><h5>Schemes</h5></Nav.Link>
                                 {/* <Nav.Link to="/" className='menu-links'><h5>Grievance</h5></Nav.Link> */}
                                 <Nav.Link as={NavLink} to="/gallery" className='menu-links'><h5>Gallery</h5></Nav.Link>
-                                <Nav.Link as={NavLink} to="/aboutus" className='menu-links'><h5>About Us</h5></Nav.Link>
                                 <Nav.Link as={NavLink} to="/contactus" className='menu-links'><h5>Contact</h5></Nav.Link>
 
 

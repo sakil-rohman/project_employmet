@@ -50,9 +50,9 @@ function Home() {
               
               <Link to={`/login_part`}><button className="button-65 mt-5 text-start" role="button"> <span class="mx-2 font_size20"><FontAwesomeIcon icon={faUserCog} /></span>   Jobseeker Login</button></Link>
               
-               <a href='https://job.assam.gov.in/recruiter/login/'><button className="button-65 mt-3 text-start" role="button"> <span class="mx-2 font_size20"><FontAwesomeIcon icon={faUsers} /></span>   Employer Login</button> </a>
-               <a href='https://job.assam.gov.in/department/'> <button className="button-65 mt-3 text-start" role="button"> <span class="mx-2 font_size20"><FontAwesomeIcon icon={faUsersCog} /></span>   Department Login</button> </a>
-               <a href='https://job.assam.gov.in/district_employment_exchange/'> <button className="button-65 mt-3 text-start" role="button"> <span class="mx-2 font_size20"><FontAwesomeIcon icon={faPeopleArrows} /></span>   Dist. Emp. Exchange Login</button> </a>
+               <a href='https://job.assam.gov.in/recruiter/login/' target="_blank"><button className="button-65 mt-3 text-start" role="button"> <span class="mx-2 font_size20"><FontAwesomeIcon icon={faUsers} /></span>   Employer Login</button> </a>
+               <a href='https://job.assam.gov.in/department/' target="_blank"> <button className="button-65 mt-3 text-start" role="button"> <span class="mx-2 font_size20"><FontAwesomeIcon icon={faUsersCog} /></span>   Department Login</button> </a>
+               <a href='https://job.assam.gov.in/district_employment_exchange/' target="_blank"> <button className="button-65 mt-3 text-start" role="button"> <span class="mx-2 font_size20"><FontAwesomeIcon icon={faPeopleArrows} /></span>   Dist. Emp. Exchange Login</button> </a>
 
 
 
@@ -67,9 +67,9 @@ function Home() {
           <Row className='pragraph_text'>
             <div>
               <p className='sub_head'>Welcome To</p>
-              <h3 className='underline_main'>Directorate of Employment & Training</h3>
-              <p className='mt-5 w_90'>
-                  Directorate of Employment & Training, DET is working under the Department of Labour and Employment, Government of Gujarat. It was formed in Gujarat State in 1971 by amalgamation of the Employment Wing, functioning under the Labour Directorate, and the Vocational Training Scheme under the Directorate of Technical Education. <br /><br />
+              <h3 className='underline_main'>Director, Employment & Craftsmen Training</h3>
+              <p className='mt-5 w_90' style={{textAlign: 'justify'}}>
+                  Directorate of Employment & Craftsmen Training, DET is working under the Department of Labour and Employment, Government of Gujarat. It was formed in Gujarat State in 1971 by amalgamation of the Employment Wing, functioning under the Labour Directorate, and the Vocational Training Scheme under the Directorate of Technical Education. <br /><br />
 
                   At present 263 Govt.ITIs, 475 Grant-in-aid & Self-Financed ITCs, 335 KVKs(Kaushalya Vardhan Kendra), 617 VTPs (Vocational Training Provider) and 48 Employment Exchanges are functioning under this Directorate. <br />
 
@@ -84,7 +84,7 @@ function Home() {
           </Row>
           <Row className='w-100 '>
             {/* next time chardv inside the col-md class  */}
-          <Card className='m-1   ' style={{ width:'30%', background:'#26AE65'}}>
+          <Card className='   mx-2' style={{ width:'30%', background:'#26AE65'}}>
       <Card.Body className='m-1'>   
       <div className="text-center">
       <FontAwesomeIcon icon={faUsersViewfinder} style={{color: "#fff",}} fontSize="40px"/>
@@ -101,7 +101,7 @@ Aadhaar: 2058438 | Non-Aadhaar: 17509
         
       </Card.Body>
     </Card>
-          <Card className='m-1   ' style={{width:'30%',  background:'#F55D5D'}}>
+          <Card className='   mx-2' style={{width:'30%',  background:'#F55D5D'}}>
       <Card.Body className='m-1'>   
       <div className="text-center">
       <FontAwesomeIcon icon={faUsersViewfinder} style={{color: "#fff",}} fontSize="40px"/>
@@ -118,7 +118,7 @@ Aadhaar: 0 | Non-Aadhaar: 0
         
       </Card.Body>
     </Card>
-          <Card className='m-1   ' style={{width:'30%', background:'#060644'}}>
+          <Card className='   mx-2' style={{width:'30%', background:'#060644'}}>
       <Card.Body className='m-1'>   
       <div className="text-center">
       <FontAwesomeIcon icon={faUsersViewfinder} style={{color: "#fff",}} fontSize="40px"/>

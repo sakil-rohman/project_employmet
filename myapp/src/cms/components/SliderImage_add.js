@@ -22,6 +22,18 @@ function SliderImage_add() {
   const history = useNavigate();
 
   const AddSliderimageInfo= async () =>{
+    // if (!image && !heading) {
+    //     setError("Please upload an image and enter a heading.");
+    //     return;
+    // }
+    // if (!image ) {
+    //     setError("Please upload an image ");
+    //     return;
+    // }
+    // if (!heading) {
+    //     setError("Please enter a heading.");
+    //     return;
+    // }
     let formField = new FormData()
 
     // formField.append('name', name) // First 'name' is mention like a form name and another name is same like a database name
