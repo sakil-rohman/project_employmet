@@ -22,10 +22,16 @@ function Contactus() {
         const filteredData = response.data.filter(item => item.designation === 'Director Employment & Craftsmen Training');
         setContactUs(filteredData);
     };
+    // const getContactUs = async () => {
+    //     const response = await axios.get('http://127.0.0.1:8000/api/contactus/');
+    //     // Example filtering based on a condition, replace with your own filtering logic
+    //     const filteredData = response.data.filter(item => item.designation === 'Director Employment & Craftsmen Training');
+    //     setContactUs(filteredData);
+    // };
     
     const getContactUsAll = async() => {
       const response = await axios.get('http://127.0.0.1:8000/api/contactus/')
-      const filteredData = response.data.filter((item => item.designation === 'Director, Employment & Craftsmen Training ') || (item => item.designation === 'Deputy Director of Employment (i/c)')) ;
+      const filteredData = response.data.filter((item => item.designation === 'Director, Employment & Craftsmen Training ') || (item => item.designation === 'Deputy Director of Employment (i/c)') || (item => item.designation === ' Director')) ;
       setContactUsAll(filteredData) 
       };
 
@@ -65,7 +71,7 @@ function Contactus() {
             <Card.Img  className='mx-auto d-inline-block shadow_sm img_size' style={{borderRadius:"50%", boxShadow:" 0 .125rem .25rem rgba(0,0,0,.075)!important"}} src={contactus.image} />
             <Card.Body>
               <Card.Title className='text-center midcard_text' >{contactus.name}</Card.Title>
-              <Card.Subtitle className='text-center card_text_2'>{contactus.details}</Card.Subtitle>
+              <Card.Subtitle className='text-center card_text_2'>{contactus.designation}</Card.Subtitle>
               <Card.Text className='p_text m-4'>
               {contactus.address}
               <br />
